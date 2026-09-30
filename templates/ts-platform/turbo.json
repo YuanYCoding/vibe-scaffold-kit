@@ -1,0 +1,9 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalEnv": ["DATABASE_URL", "REDIS_URL", "API_PORT", "NEXT_PUBLIC_API_URL"],
+  "tasks": {
+    "build": { "dependsOn": ["^build"], "outputs": ["dist/**", ".next/**", "!.next/cache/**"] },
+    "dev": { "dependsOn": ["^build"], "cache": false, "persistent": true },
+    "check": { "dependsOn": ["^build"], "outputs": [] }
+  }
+}

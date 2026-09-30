@@ -1,0 +1,7 @@
+packages:
+  - apps/web
+
+allowBuilds:
+  "@swc/core": true
+  esbuild: true
+  sharp: true

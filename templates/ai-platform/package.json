@@ -1,0 +1,21 @@
+{
+  "name": "__PROJECT_SLUG__",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "dotenv -e .env -- concurrently -n web,api,worker -c blue,green,magenta \"pnpm --dir apps/web dev\" \"cd apps/api && uv run uvicorn app.main:app --reload --port 8000\" \"cd apps/api && uv run celery -A app.worker.celery_app worker --loglevel=INFO\"",
+    "build": "pnpm --dir apps/web build && cd apps/api && uv run python -m compileall -q app",
+    "check": "pnpm --dir apps/web check && cd apps/api && uv run ruff check . && uv run mypy app && uv run pytest -q",
+    "test:e2e": "pnpm --dir apps/web test:e2e",
+    "db:generate": "cd apps/api && uv run alembic revision --autogenerate -m",
+    "db:migrate": "cd apps/api && uv run alembic upgrade head",
+    "db:deploy": "cd apps/api && uv run alembic upgrade head",
+    "format": "pnpm --dir apps/web format && cd apps/api && uv run ruff format ."
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "dotenv-cli": "^11.0.0"
+  },
+  "engines": { "node": ">=24 <25" },
+  "packageManager": "pnpm@11.20.0"
+}

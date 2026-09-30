@@ -1,0 +1,23 @@
+{
+  "name": "@__PROJECT_SLUG__/worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/main.js",
+    "check": "tsc --noEmit -p tsconfig.json && vitest run src"
+  },
+  "dependencies": {
+    "bullmq": "6.3.9",
+    "ioredis": "^6.0.0",
+    "pino": "^10.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.2"
+  }
+}

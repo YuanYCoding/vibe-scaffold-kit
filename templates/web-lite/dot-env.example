@@ -1,0 +1,10 @@
+NODE_ENV=development
+APP_NAME=__PROJECT_TITLE__
+NEXT_PUBLIC_APP_NAME=__PROJECT_TITLE__
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=change-me-postgres
+POSTGRES_DB=__PROJECT_DB__
+POSTGRES_PORT=55432
+DATABASE_URL=postgresql://postgres:change-me-postgres@127.0.0.1:55432/__PROJECT_DB__
+BETTER_AUTH_SECRET=change-me-auth-secret
+BETTER_AUTH_URL=http://localhost:3000

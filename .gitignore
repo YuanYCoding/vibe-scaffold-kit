@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+.generated-smoke/
+.ruff_cache/
+.venv/
+.next/
+coverage/
+dist/
+*.log

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technology Selector"
+  short_description: "Clarify requirements and select the right scaffold"
+  default_prompt: "Use $technology-selector to clarify my product requirements, select the right scaffold, and create the project."

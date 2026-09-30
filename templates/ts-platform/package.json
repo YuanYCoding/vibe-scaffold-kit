@@ -1,0 +1,26 @@
+{
+  "name": "__PROJECT_SLUG__",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "dotenv -e .env -- turbo dev",
+    "build": "dotenv -e .env -- turbo build",
+    "check": "dotenv -e .env -- turbo check",
+    "test:e2e": "dotenv -e .env -- pnpm --filter @__PROJECT_SLUG__/web test:e2e",
+    "db:generate": "dotenv -e .env -- pnpm --filter @__PROJECT_SLUG__/db generate",
+    "db:migrate": "dotenv -e .env -- pnpm --filter @__PROJECT_SLUG__/db migrate",
+    "db:deploy": "dotenv -e .env -- pnpm --filter @__PROJECT_SLUG__/db run deploy",
+    "db:studio": "dotenv -e .env -- pnpm --filter @__PROJECT_SLUG__/db studio",
+    "format": "biome check --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.14",
+    "dotenv-cli": "^11.0.0",
+    "turbo": "^2.11.5",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "packageManager": "pnpm@11.20.0"
+}

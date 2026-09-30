@@ -1,0 +1,21 @@
+{
+  "name": "vibe-scaffold-kit",
+  "interface": {
+    "displayName": "Vibe Scaffold Kit"
+  },
+  "plugins": [
+    {
+      "name": "vibe-scaffold-kit",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/YuanYCoding/vibe-scaffold-kit.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

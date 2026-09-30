@@ -1,0 +1,17 @@
+{
+  "name": "@local/vibe-scaffold-kit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "vibe-create": "./create.mjs"
+  },
+  "scripts": {
+    "scaffold": "node ./create.mjs",
+    "check": "node --check ./create.mjs && bash -n ./scripts/*.sh && node ./scripts/validate-templates.mjs && node ./scripts/validate-plugin.mjs"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "packageManager": "pnpm@11.20.0"
+}

@@ -1,0 +1,10 @@
+{
+  "files": { "ignoreUnknown": true, "includes": ["**", "!packages/db/src/generated"] },
+  "formatter": { "enabled": true, "indentStyle": "space", "lineWidth": 100 },
+  "linter": { "enabled": true, "rules": { "preset": "recommended" } },
+  "javascript": {
+    "parser": { "unsafeParameterDecoratorsEnabled": true },
+    "formatter": { "quoteStyle": "double", "semicolons": "always" }
+  },
+  "css": { "parser": { "tailwindDirectives": true } }
+}

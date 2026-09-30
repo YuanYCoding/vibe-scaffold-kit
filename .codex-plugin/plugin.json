@@ -1,0 +1,37 @@
+{
+  "name": "vibe-scaffold-kit",
+  "version": "1.0.0",
+  "description": "Select and generate production-minded web, TypeScript platform, and AI/data projects.",
+  "author": {
+    "name": "YuanYCoding",
+    "url": "https://github.com/YuanYCoding"
+  },
+  "homepage": "https://github.com/YuanYCoding/vibe-scaffold-kit#readme",
+  "repository": "https://github.com/YuanYCoding/vibe-scaffold-kit",
+  "license": "MIT",
+  "keywords": [
+    "scaffold",
+    "nextjs",
+    "postgresql",
+    "shadcn",
+    "ai"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Vibe Scaffold Kit",
+    "shortDescription": "Choose and generate a production-ready scaffold.",
+    "longDescription": "Clarifies product requirements, selects one of three bundled project templates, generates the project, and explains the technical tradeoffs.",
+    "developerName": "YuanYCoding",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/YuanYCoding/vibe-scaffold-kit",
+    "defaultPrompt": [
+      "Help me choose the right scaffold for a new product.",
+      "Create a production-ready starter for my project idea."
+    ],
+    "brandColor": "#F59E0B"
+  }
+}

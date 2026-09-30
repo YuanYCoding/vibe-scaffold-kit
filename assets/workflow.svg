@@ -1,0 +1,65 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Vibe Scaffold Kit workflow</title>
+  <desc id="desc">Your idea is clarified by Technology Selector, routed to one of three templates, generated, verified, and explained.</desc>
+  <defs>
+    <linearGradient id="panel" x1="70" y1="30" x2="1110" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0 0L10 5L0 10V0Z" fill="#64748B"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#334155" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#panel)"/>
+  <text x="52" y="48" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="750">HOW IT WORKS</text>
+  <text x="52" y="75" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14">One conversation. One deliberate choice. A real project on disk.</text>
+
+  <path d="M225 202H307" stroke="#64748B" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M533 202H602" stroke="#64748B" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M824 202H908" stroke="#64748B" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <g transform="translate(52 137)" filter="url(#shadow)">
+    <rect width="173" height="130" rx="18" fill="white" stroke="#CBD5E1"/>
+    <circle cx="34" cy="33" r="17" fill="#E0F2FE"/>
+    <path d="M26 34C26 29.6 29.6 26 34 26C38.4 26 42 29.6 42 34C42 38.4 38.4 42 34 42H30L25 46L27 40.5C26.4 38.7 26 36.5 26 34Z" stroke="#0284C7" stroke-width="2" stroke-linejoin="round"/>
+    <text x="22" y="75" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700">Your idea</text>
+    <text x="22" y="101" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13">Goals, users, data,</text>
+    <text x="22" y="120" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13">constraints, non-goals</text>
+  </g>
+
+  <g transform="translate(310 120)" filter="url(#shadow)">
+    <rect width="223" height="164" rx="20" fill="#111827"/>
+    <rect x="22" y="21" width="179" height="28" rx="14" fill="#312E81"/>
+    <text x="111.5" y="40" text-anchor="middle" fill="#C7D2FE" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="12" font-weight="700">TECHNOLOGY SELECTOR</text>
+    <text x="22" y="83" fill="#F8FAFC" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700">Clarify &amp; decide</text>
+    <text x="22" y="110" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13">Asks only material questions.</text>
+    <text x="22" y="132" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13">Explains tradeoffs before</text>
+    <text x="22" y="151" fill="#CBD5E1" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13">creating the project.</text>
+  </g>
+
+  <g transform="translate(608 101)" filter="url(#shadow)">
+    <rect width="216" height="202" rx="20" fill="white" stroke="#CBD5E1"/>
+    <rect x="20" y="20" width="176" height="42" rx="12" fill="#E0F2FE"/>
+    <circle cx="41" cy="41" r="7" fill="#0EA5E9"/>
+    <text x="59" y="46" fill="#075985" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700">web-lite</text>
+    <rect x="20" y="80" width="176" height="42" rx="12" fill="#EDE9FE"/>
+    <circle cx="41" cy="101" r="7" fill="#8B5CF6"/>
+    <text x="59" y="106" fill="#5B21B6" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700">ts-platform</text>
+    <rect x="20" y="140" width="176" height="42" rx="12" fill="#FEF3C7"/>
+    <circle cx="41" cy="161" r="7" fill="#F59E0B"/>
+    <text x="59" y="166" fill="#92400E" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700">ai-platform</text>
+  </g>
+
+  <g transform="translate(913 137)" filter="url(#shadow)">
+    <rect width="235" height="130" rx="18" fill="white" stroke="#CBD5E1"/>
+    <circle cx="34" cy="33" r="17" fill="#DCFCE7"/>
+    <path d="M27 34L32 39L42 28" stroke="#16A34A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="22" y="75" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="17" font-weight="700">Project ready</text>
+    <text x="22" y="101" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13">Generated · checked · explained</text>
+    <text x="22" y="120" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13">Ready for local iteration</text>
+  </g>
+</svg>

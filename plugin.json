@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "vibe-scaffold-kit",
+  "version": "1.0.0",
+  "description": "Select and generate production-minded web, TypeScript platform, and AI/data projects.",
+  "author": {
+    "name": "YuanYCoding",
+    "url": "https://github.com/YuanYCoding"
+  },
+  "homepage": "https://github.com/YuanYCoding/vibe-scaffold-kit#readme",
+  "repository": "https://github.com/YuanYCoding/vibe-scaffold-kit",
+  "license": "MIT",
+  "keywords": [
+    "scaffold",
+    "nextjs",
+    "postgresql",
+    "shadcn",
+    "ai"
+  ]
+}
